@@ -2,9 +2,8 @@ import React from 'react';
 import MainLayout from '../layouts/MainLayout';
 
 const Home = () => (
-  <MainLayout>
-    <h1>Welcome to Home Page</h1>
-  </MainLayout>
+ <div>home</div>
+
 );
 
 export default Home;
