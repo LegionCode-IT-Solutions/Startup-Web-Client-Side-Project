@@ -17,11 +17,16 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex space-x-10">
           <Link to="/" className="hover:text-gray-400">Home</Link>
           <Link to="/about" className="hover:text-gray-400">About Us</Link>
           <Link to="/services" className="hover:text-gray-400">Services</Link>
           <Link to="/contact" className="hover:text-gray-400">Contact</Link>
+          
+          {/* Login Button */}
+          <Link to="/login" className="hover:bg-gray-700 px-4 py-1  rounded-md bg-blue-500 hover:text-white">
+            Login
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -47,6 +52,11 @@ const Navbar = () => {
           <Link to="/about" className="block py-2 hover:text-gray-400">About Us</Link>
           <Link to="/services" className="block py-2 hover:text-gray-400">Services</Link>
           <Link to="/contact" className="block py-2 hover:text-gray-400">Contact</Link>
+
+          {/* Mobile Login Button */}
+          <Link to="/login" className="block py-2 hover:bg-gray-700 text-white px-4 rounded-md bg-blue-500 hover:text-white">
+            Login
+          </Link>
         </div>
       )}
     </nav>
