@@ -3,7 +3,7 @@ import { AuthProvider } from './store/authContext';
 import Home from './pages/Home';
 import About from "./pages/About";
 import MainLayout from "./layouts/MainLayout";
-import Services from "./pages/";
+import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 
 const App = () => {
